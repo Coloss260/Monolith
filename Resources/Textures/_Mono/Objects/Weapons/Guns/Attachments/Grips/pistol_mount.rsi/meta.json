@@ -8,16 +8,10 @@
   },
   "states": [
     {
-      "name": "vfg"
-    },
-    {
       "name": "lam"
     },
     {
       "name": "lam_unshaded"
-    },
-    {
-      "name": "light"
     }
   ]
 }
