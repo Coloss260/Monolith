@@ -1,0 +1,20 @@
+- type: job
+  id: Off-Duty Crew
+  name: job-name-offduty-crew
+  description: job-description-offduty-crew
+  playTimeTracker: JobPassengerOld
+  setPreference: false # Frontier
+  startingGear: PassengerGear
+  icon: "JobIconPassenger"
+#  supervisors: job-supervisors-everyone
+  accessGroups: # Frontier
+  - GeneralAccess # Frontier
+
+- type: startingGear
+  id: PassengerGear
+  equipment:
+    id: PassengerPDA
+    ears: ClothingHeadsetGrey
+  #storage:
+    #back:
+    #- Stuff

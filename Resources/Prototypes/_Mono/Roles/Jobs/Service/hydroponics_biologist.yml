@@ -1,7 +1,7 @@
 - type: job
   id: Hydroponics Biologist
-  name: job-name-botanist
-  description: job-description-botanist
+  name: job-name-hydroponics-biologist
+  description: job-description-hydroponics-biologist
   playTimeTracker: JobBotanist
   setPreference: false # Frontier
   requirements:

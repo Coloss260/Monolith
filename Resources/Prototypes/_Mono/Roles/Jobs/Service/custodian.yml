@@ -1,7 +1,7 @@
 - type: job
   id: Custodian
-  name: job-name-janitor
-  description: job-description-janitor
+  name: job-name-custodian
+  description: job-description-custodian
   playTimeTracker: JobJanitorOld
   setPreference: false # Frontier
   startingGear: JanitorGear
