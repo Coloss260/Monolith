@@ -6345,7 +6345,7 @@ entities:
     - type: Transform
       pos: -4.5,2.5
       parent: 2
-- proto: NFTelecomServerFilled
+- proto: COLTelecomServerFilled
   entities:
   - uid: 918
     components:

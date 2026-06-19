@@ -1,33 +1,16 @@
 - type: radioChannel
-  id: Ship
-  name: chat-radio-ship
-  keycode: ";"
-  frequency: 1459
-  color: "#b3b3b3"
-
-- type: radioChannel
-  id: Service
-  name: chat-radio-service
-  keycode: 'v'
-  frequency: 1123
-  color: "#c1ff72"
-  longRange: true
-
-- type: radioChannel
   id: Maintenance
   name: chat-radio-maintenance
   keycode: 'e'
   frequency: 1357
   color: "#ff9900"
-  longRange: true
 
 - type: radioChannel
   id: BridgeCommand
   name: chat-radio-bridge-command
   keycode: 'c'
   frequency: 1363
-  color: "#1155cc"
-  longRange: true
+  color: "#2b72ee"
 
 - type: radioChannel
   id: Tactical
@@ -35,7 +18,6 @@
   keycode: 't'
   frequency: 1485
   color: "#ffff00"
-  longRange: true
 
 - type: radioChannel
   id: Operations
@@ -43,20 +25,3 @@
   keycode: 'o'
   frequency: 1421
   color: "#b45f06"
-  longRange: true
-
-- type: radioChannel
-  id: Security
-  name: chat-radio-security
-  keycode: 's'
-  frequency: 1412
-  color: "#ff0000"
-  longRange: true
-
-- type: radioChannel
-  id: Science
-  name: chat-radio-science
-  keycode: 'n'
-  frequency: 1685
-  color: "#9900ff"
-  longRange: true

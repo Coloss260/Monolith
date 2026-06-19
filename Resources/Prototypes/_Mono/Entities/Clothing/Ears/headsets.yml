@@ -23,7 +23,7 @@
   - type: ContainerFill
     containers:
       key_slots:
-      - EncryptionKeyStationMaster
+      - EncryptionKeyCommon
   - type: Sprite
     sprite: Clothing/Ears/Headsets/security.rsi
   - type: Clothing
@@ -72,7 +72,7 @@
   - type: ContainerFill
     containers:
       key_slots:
-      - EncryptionKeyStationMaster
+      - EncryptionKeyCommon
       - EncryptionKeyCentCom
   - type: Sprite
     sprite: Clothing/Ears/Headsets/security.rsi
@@ -94,7 +94,6 @@
     containers:
       key_slots:
       - EncryptionKeyCommon
-      - EncryptionKeyUssp
 
 - type: entity
   parent: ClothingHeadsetAlt
@@ -110,7 +109,6 @@
     containers:
       key_slots:
       - EncryptionKeyCommon
-      - EncryptionKeyUssp
 
 #PDV
 - type: entity
@@ -124,8 +122,6 @@
     - type: ContainerFill
       containers:
         key_slots:
-          - EncryptionKeyFreelance
-          - EncryptionKeyVanguardCommand
           - EncryptionKeyCommon # Mono
     - type: Sprite
       sprite: Clothing/Ears/Headsets/freelance.rsi
@@ -140,6 +136,4 @@
   - type: ContainerFill
     containers:
       key_slots:
-      - EncryptionKeyCentCom
-      - EncryptionKeyStationMasterSR
-      - EncryptionKeyDiplomacy
+      - EncryptionKeyCommon

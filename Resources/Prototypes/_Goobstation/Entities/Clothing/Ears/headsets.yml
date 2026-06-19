@@ -7,7 +7,6 @@
     containers:
       key_slots:
       - EncryptionKeyCentCom
-      - EncryptionKeyStationMaster
   - type: Sprite
     sprite: _Goobstation/Clothing/Ears/Headsets/deathsquad.rsi
   - type: Clothing
