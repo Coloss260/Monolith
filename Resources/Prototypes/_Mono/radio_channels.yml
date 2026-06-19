@@ -1,36 +1,39 @@
 - type: radioChannel
-  id: Ussp
-  name: chat-radio-ussp
-  keycode: 'p'
-  frequency: 1723
-  color: "#b2224b"
-  longRange: true
-
-# - type: radioChannel
-#  id: UsspCommand
-#  name: chat-radio-ussp-command
-#  keycode: 'i'
-#  frequency: 1725
-#  color: "#ff0026"
-#  longRange: true
-
-- type: radioChannel
-  id: Letoferol
-  name: chat-radio-letoferol
-  keycode: 'l'
-  color: "#fcba03"
+  id: Service
+  name: chat-radio-service
+  keycode: 'v'
+  frequency: 1123
+  color: "#c1ff72"
   longRange: true
 
 - type: radioChannel
-  id: CorticalBorer
-  name: chat-radio-cortical-borer
-  keycode: 'z'
-  color: "#d842fc"
+  id: Maintenance
+  name: chat-radio-maintenance
+  keycode: 'e'
+  frequency: 1357
+  color: "#ff9900"
   longRange: true
 
 - type: radioChannel
-  id: Remnants
-  name: chat-radio-remnants
-  keycode: 'j'
-  color: "#21b0a4"
+  id: BridgeCommand
+  name: chat-radio-bridge-command
+  keycode: 'c'
+  frequency: 1363
+  color: "#1155cc"
+  longRange: true
+
+- type: radioChannel
+  id: Tactical
+  name: chat-radio-tactical
+  keycode: 't'
+  frequency: 1485
+  color: "#ffff00"
+  longRange: true
+
+- type: radioChannel
+  id: Operations
+  name: chat-radio-operations
+  keycode: 'o'
+  frequency: 1421
+  color: "#b45f06"
   longRange: true

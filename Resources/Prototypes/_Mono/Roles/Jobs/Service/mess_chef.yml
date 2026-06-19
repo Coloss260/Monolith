@@ -9,7 +9,7 @@
       time: 10800
   startingGear: MessChefGear
   icon: "JobIconMessChef"
-  supervisors: job-supervisors-hire # Frontier
+  supervisors: job-supervisors-oo # Frontier
   weight: 200
   displayWeight: 60
   canBeAntag: true

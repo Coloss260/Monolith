@@ -5,6 +5,7 @@
   playTimeTracker: JobOffDutyCrew
   setPreference: true # Frontier
   startingGear: OffDutyCrewGear
+  supervisors: job-supervisors-oo
   icon: "JobIconOffDutyCrew"
 #  supervisors: job-supervisors-everyone
   weight: 120
