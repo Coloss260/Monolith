@@ -6338,7 +6338,7 @@ entities:
     - type: Transform
       pos: -16.5,-6.5
       parent: 2
-- proto: NFSpawnPointJanitor
+- proto: SpawnPointCustodian
   entities:
   - uid: 916
     components:
@@ -7755,7 +7755,7 @@ entities:
     - type: Transform
       pos: -4.5,2.5
       parent: 2
-- proto: SpawnPointContractor
+- proto: SpawnPointOffDutyCrew
   entities:
   - uid: 1124
     components:
@@ -7846,7 +7846,7 @@ entities:
     - type: Transform
       pos: -4.5,2.5
       parent: 2
-- proto: SpawnPointMercenary
+- proto: SpawnPointMessChef
   entities:
   - uid: 1137
     components:
@@ -7860,7 +7860,7 @@ entities:
     - type: Transform
       pos: -4.5,4.5
       parent: 2
-- proto: SpawnPointPDVBorg
+- proto: SpawnPointBartender
   entities:
   - uid: 1706
     components:
@@ -7881,7 +7881,7 @@ entities:
     - type: Transform
       pos: -4.5,2.5
       parent: 2
-- proto: SpawnPointPilot
+- proto: SpawnPointHydroponicsBiologist
   entities:
   - uid: 1141
     components:
