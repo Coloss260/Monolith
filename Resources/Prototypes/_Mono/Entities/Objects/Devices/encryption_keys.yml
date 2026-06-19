@@ -1,90 +1,90 @@
-- type: entity
-  parent: EncryptionKey
-  id: EncryptionKeyUssp
-  name: USSP encryption key
-  description: An encryption key for the USSP tactical-level communications channel.
-  components:
-  - type: EncryptionKey
-    channels:
-    - Ussp
-    defaultChannel: Ussp
-  - type: Item
-    sprite: Objects/Devices/encryption_keys.rsi
-  - type: Sprite
-    sprite: Objects/Devices/encryption_keys.rsi
-    layers:
-    - state: crypt_rusted
-    - state: sec_label
-  - type: PirateBountyItem
-    id: EncryptionKeyFaction
+#- type: entity
+#  parent: EncryptionKey
+#  id: EncryptionKeyUssp
+#  name: USSP encryption key
+#  description: An encryption key for the USSP tactical-level communications channel.
+#  components:
+#  - type: EncryptionKey
+#    channels:
+#    - Ussp
+#    defaultChannel: Ussp
+#  - type: Item
+#    sprite: Objects/Devices/encryption_keys.rsi
+#  - type: Sprite
+#    sprite: Objects/Devices/encryption_keys.rsi
+#    layers:
+#    - state: crypt_rusted
+#    - state: sec_label
+#  - type: PirateBountyItem
+#    id: EncryptionKeyFaction
 
-- type: entity
-  parent: EncryptionKey
-  id: EncryptionKeyUsspCommand
-  name: USSP command encryption key
-  description: An encryption key for the USSP command channel. Due to USSP higher-level networking being defunct, it instead provides access to tactical command.
-  components:
-  - type: EncryptionKey
-    channels:
-    - Ussp
-    defaultChannel: Ussp
-  - type: Item
-    sprite: Objects/Devices/encryption_keys.rsi
-  - type: Sprite
-    sprite: Objects/Devices/encryption_keys.rsi
-    layers:
-    - state: crypt_blue
-    - state: sec_label
-  - type: PirateBountyItem
-    id: EncryptionKeyFaction
+#- type: entity
+#  parent: EncryptionKey
+#  id: EncryptionKeyUsspCommand
+#  name: USSP command encryption key
+#  description: An encryption key for the USSP command channel. Due to USSP higher-level networking being defunct, it instead provides access to tactical command.
+#  components:
+#  - type: EncryptionKey
+#    channels:
+#    - Ussp
+#    defaultChannel: Ussp
+#  - type: Item
+#    sprite: Objects/Devices/encryption_keys.rsi
+#  - type: Sprite
+#    sprite: Objects/Devices/encryption_keys.rsi
+#    layers:
+#    - state: crypt_blue
+#    - state: sec_label
+#  - type: PirateBountyItem
+#    id: EncryptionKeyFaction
 
-- type: entity
-  parent: EncryptionKey
-  id: EncryptionKeyVanguardCommand
-  name: vanguard command encryption key # mono
-  description: An encryption key used by officers in the vanguard. # Mono
-  components:
-    - type: EncryptionKey
-      channels:
-        - VanguardCommand
-      defaultChannel: VanguardCommand
-    - type: Sprite
-      layers:
-        - state: crypt_blue
-        - state: pirate_label
+#- type: entity
+#  parent: EncryptionKey
+#  id: EncryptionKeyVanguardCommand
+#  name: vanguard command encryption key # mono
+#  description: An encryption key used by officers in the vanguard. # Mono
+#  components:
+#    - type: EncryptionKey
+#      channels:
+#        - VanguardCommand
+#      defaultChannel: VanguardCommand
+#    - type: Sprite
+#      layers:
+#        - state: crypt_blue
+#        - state: pirate_label
 
 # Overseer variant w/ no TSFMC or TSF command radio key
 
-- type: entity
-  parent: EncryptionKeyStationMaster
-  id: EncryptionKeyStationMasterSR
-  components:
-  - type: EncryptionKey
-    channels:
-    - Common
-    - Engineering
-    - Medical
-    - Science
-    - Security
-    - Service
-    - Supply
-    - Traffic
-    defaultChannel: Service
+#- type: entity
+#  parent: EncryptionKeyStationMaster
+#  id: EncryptionKeyStationMasterSR
+#  components:
+#  - type: EncryptionKey
+#    channels:
+#    - Common
+#    - Engineering
+#    - Medical
+#    - Science
+#    - Security
+#    - Service
+#    - Supply
+#    - Traffic
+#    defaultChannel: Service
 
  # Diplomacy with faction heads, seperated from master key to allow toggling off
-- type: entity
-  parent: EncryptionKeyStationMaster
-  id: EncryptionKeyDiplomacy
-  name: diplomatic encryption key
-  description: A direct communications channel to the heads of the sector's warring states.
-  components:
-  - type: EncryptionKey
-    channels:
-    - Command
-    - VanguardCommand
-    #- Nfsd #Deliberately excluded: You don't command them
-    #- Freelance
-    defaultChannel: Command
+#- type: entity
+#  parent: EncryptionKeyStationMaster
+#  id: EncryptionKeyDiplomacy
+#  name: diplomatic encryption key
+#  description: A direct communications channel to the heads of the sector's warring states.
+#  components:
+#  - type: EncryptionKey
+#    channels:
+#    - Command
+#    - VanguardCommand
+#    #- Nfsd #Deliberately excluded: You don't command them
+#    #- Freelance
+#    defaultChannel: Command
 
 - type: entity
   parent: EncryptionKey
@@ -94,7 +94,7 @@
   components:
   - type: EncryptionKey
     channels:
-    - Common
+    - Ship
     - Maintenance
     defaultChannel: Maintenance
   - type: Item
@@ -116,7 +116,7 @@
   - type: EncryptionKey
     channels:
     - Service
-    - Common
+    - Ship
     defaultChannel: Service
   - type: Item
     sprite: Objects/Devices/encryption_keys.rsi
@@ -137,7 +137,7 @@
   - type: EncryptionKey
     channels:
     - BridgeCommand
-    - Common
+    - Ship
     defaultChannel: BridgeCommand
   - type: Item
     sprite: Objects/Devices/encryption_keys.rsi
@@ -158,14 +158,14 @@
   - type: EncryptionKey
     channels:
     - Tactical
-    - Common
+    - Ship
     defaultChannel: Tactical
   - type: Item
     sprite: Objects/Devices/encryption_keys.rsi
   - type: Sprite
     sprite: Objects/Devices/encryption_keys.rsi
     layers:
-    - state: crypt_gray
+    - state: crypt_gold
     - state: eng_label
   - type: PirateBountyItem
     id: EncryptionKeyFaction
@@ -179,14 +179,35 @@
   - type: EncryptionKey
     channels:
     - Operations
-    - Common
+    - Ship
     defaultChannel: Operations
   - type: Item
     sprite: Objects/Devices/encryption_keys.rsi
   - type: Sprite
     sprite: Objects/Devices/encryption_keys.rsi
     layers:
-    - state: crypt_gray
+    - state: crypt_gold
     - state: service_label
+  - type: PirateBountyItem
+    id: EncryptionKeyFaction
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeySecurity
+  name: Security encryption key
+  description: An encryption key for the security communications channel.
+  components:
+  - type: EncryptionKey
+    channels:
+    - Security
+    - Ship
+    defaultChannel: Security
+  - type: Item
+    sprite: Objects/Devices/encryption_keys.rsi
+  - type: Sprite
+    sprite: Objects/Devices/encryption_keys.rsi
+    layers:
+    - state: crypt_gray
+    - state: sec_label
   - type: PirateBountyItem
     id: EncryptionKeyFaction
