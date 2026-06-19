@@ -7783,6 +7783,55 @@ entities:
     - type: Transform
       pos: -4.5,2.5
       parent: 2
+- proto: SpawnPointCommandingOfficer
+  entities:
+  - uid: 1142
+    components:
+    - type: Transform
+      pos: -4.5,2.5
+      parent: 2
+- proto: SpawnPointExecutiveOfficer
+  entities:
+  - uid: 1143
+    components:
+    - type: Transform
+      pos: -4.5,2.5
+      parent: 2
+- proto: SpawnPointTacticalOfficer
+  entities:
+  - uid: 1144
+    components:
+    - type: Transform
+      pos: -4.5,2.5
+      parent: 2
+- proto: SpawnPointOperationsOfficer
+  entities:
+  - uid: 1145
+    components:
+    - type: Transform
+      pos: -4.5,2.5
+      parent: 2
+- proto: SpawnPointCommunicationsOfficer
+  entities:
+  - uid: 1146
+    components:
+    - type: Transform
+      pos: -4.5,2.5
+      parent: 2
+- proto: SpawnPointFlightControlOfficer
+  entities:
+  - uid: 1147
+    components:
+    - type: Transform
+      pos: -4.5,2.5
+      parent: 2
+- proto: SpawnPointBridgeEnsign
+  entities:
+  - uid: 1148
+    components:
+    - type: Transform
+      pos: -4.5,2.5
+      parent: 2
 - proto: SpawnVehicleJanicart
   entities:
   - uid: 1160

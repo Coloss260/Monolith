@@ -10,8 +10,7 @@
   startingGear: MessChefGear
   icon: "JobIconMessChef"
   supervisors: job-supervisors-oo # Frontier
-  weight: 200
-  displayWeight: 60
+  displayWeight: 80
   canBeAntag: true
   accessGroups: # Frontier
   - GeneralAccess # Frontier

@@ -7,7 +7,7 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 144000 #40 hrs
-  weight: 150
+  displayWeight: 100
   startingGear: ChiefOfMaintenanceGear
   icon: "JobIconChiefEngineer"
   supervisors: job-supervisors-to

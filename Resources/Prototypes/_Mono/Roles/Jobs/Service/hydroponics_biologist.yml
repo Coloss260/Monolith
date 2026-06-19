@@ -9,9 +9,8 @@
       time: 10800
   startingGear: HydroponicsBiologistGear
   icon: "JobIconHydroponicsBiologist"
-  supervisors: job-supervisors-oo # Frontier
-  weight: 190
-  displayWeight: 50
+  supervisors: job-supervisors-oo
+  displayWeight: 90
   canBeAntag: true
   accessGroups: # Frontier
   - GeneralAccess # Frontier

@@ -7,7 +7,7 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800
-  weight: 110
+  displayWeight: 90
   startingGear: LifeSupportSpecialistGear
   icon: "JobIconAtmosphericTechnician"
   supervisors: job-supervisors-com # Frontier

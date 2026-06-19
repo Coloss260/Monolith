@@ -1,3 +1,59 @@
+# Bridge Command
+- type: entity
+  id: SpawnPointCommandingOfficer
+  parent: SpawnPointJobBase
+  name: Commanding Officer
+  components:
+  - type: SpawnPoint
+    job_id: CommandingOfficer
+
+- type: entity
+  id: SpawnPointExecutiveOfficer
+  parent: SpawnPointJobBase
+  name: Executive Officer
+  components:
+  - type: SpawnPoint
+    job_id: ExecutiveOfficer
+
+- type: entity
+  id: SpawnPointTacticalOfficer
+  parent: SpawnPointJobBase
+  name: Tactical Officer
+  components:
+  - type: SpawnPoint
+    job_id: TacticalOfficer
+
+- type: entity
+  id: SpawnPointOperationsOfficer
+  parent: SpawnPointJobBase
+  name: Operations Officer
+  components:
+  - type: SpawnPoint
+    job_id: OperationsOfficer
+
+- type: entity
+  id: SpawnPointCommunicationsOfficer
+  parent: SpawnPointJobBase
+  name: Communications Officer
+  components:
+  - type: SpawnPoint
+    job_id: CommunicationsOfficer
+
+- type: entity
+  id: SpawnPointFlightControlOfficer
+  parent: SpawnPointJobBase
+  name: Flight Control Officer
+  components:
+  - type: SpawnPoint
+    job_id: FlightControlOfficer
+
+- type: entity
+  id: SpawnPointBridgeEnsign
+  parent: SpawnPointJobBase
+  name: Bridge Ensign
+  components:
+  - type: SpawnPoint
+    job_id: BridgeEnsign
 
 #Maintenance
 - type: entity
@@ -33,9 +89,16 @@
   - type: SpawnPoint
     job_id: MaintenanceIntern
 
+# Security
+
+# Science
+
+# Supply
+
+# Medical
+
+
 # Service
-
-
 - type: entity
   id: SpawnPointCustodian
   parent: SpawnPointJanitor

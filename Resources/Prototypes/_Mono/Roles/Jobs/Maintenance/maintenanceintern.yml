@@ -10,7 +10,7 @@
 #      inverted: true # stop playing intern if you're good at engineering!
     - !type:OverallPlaytimeRequirement # Frontier
       time: 10800 # Frontier
-  weight: 50
+  displayWeight: 70
   startingGear: MaintenanceInternGear
   icon: "JobIconTechnicalAssistant"
   supervisors: job-supervisors-com # Frontier

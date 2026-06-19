@@ -4,6 +4,7 @@
   description: job-description-bartender
   playTimeTracker: JobBartender
   setPreference: true # Frontier
+  displayWeight: 40
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800

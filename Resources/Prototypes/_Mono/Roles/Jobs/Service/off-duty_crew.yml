@@ -6,10 +6,8 @@
   setPreference: true # Frontier
   startingGear: OffDutyCrewGear
   supervisors: job-supervisors-oo
-  icon: "JobIconOffDutyCrew"
-#  supervisors: job-supervisors-everyone
-  weight: 120
-  displayWeight: 20
+  icon: "JobIconPassenger"
+  displayWeight: 10
   canBeAntag: true
   accessGroups: # Frontier
   - GeneralAccess # Frontier

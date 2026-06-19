@@ -7,8 +7,7 @@
   startingGear: CustodianGear
   icon: "JobIconCustodian"
   supervisors: job-supervisors-oo
-  weight: 180
-  displayWeight: 40
+  displayWeight: 100
   canBeAntag: true
   # access: # Frontier
    # - Service # Frontier

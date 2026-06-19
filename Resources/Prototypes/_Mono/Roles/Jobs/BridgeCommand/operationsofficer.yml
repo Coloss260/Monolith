@@ -1,0 +1,54 @@
+- type: job
+  id: OperationsOfficer
+  name: job-name-operationsofficer
+  description: job-description-operationsofficer
+  playTimeTracker: JobOperationsOfficer
+  setPreference: true # Frontier
+  supervisors: job-supervisors-coxo
+  requireAdminNotify: true
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 54000 # 15 hours
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 54000 # 15 hours
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 54000 # 15 hours
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 54000 # 15 hours
+  displayWeight: 70
+  startingGear: OperationsOfficerGear
+  icon: "JobIconCaptain"
+# Frontier: commented out below, separate access
+#  requireAdminNotify: true
+#  joinNotifyCrew: true
+#  supervisors: job-supervisors-centcom
+#  canBeAntag: false
+  access:
+  - Captain # Just making sure in the case of any error that this role cannot be used for any bad doing.
+  accessGroups:
+  - GeneralAccess # Frontier
+  # - AllAccess
+  # special:
+  # - !type:AddImplantSpecial
+    # implants: [ MindShieldImplant ]
+  # - !type:AddComponentSpecial
+    # components:
+      # - type: CommandStaff
+# End Frontier
+
+- type: startingGear
+  id: OperationsOfficerGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    eyes: ClothingEyesGlassesSunglasses
+    gloves: ClothingHandsGlovesCaptain
+    id: CaptainPDA
+    ears: ClothingHeadsetAltCommand
+  storage:
+    back:
+    - Flash
+    # - StationCharter # Frontier
