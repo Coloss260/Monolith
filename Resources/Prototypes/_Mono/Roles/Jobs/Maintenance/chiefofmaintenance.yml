@@ -1,0 +1,44 @@
+- type: job
+  id: ChiefOfMaintenance
+  name: job-name-com
+  description: job-description-com
+  playTimeTracker: JobChiefOfMaintenance
+  setPreference: true # Frontier
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 144000 #40 hrs
+  weight: 150
+  startingGear: ChiefOfMaintenanceGear
+  icon: "JobIconChiefEngineer"
+  supervisors: job-supervisors-to
+  canBeAntag: false
+  ## Frontier: commented everything below out
+  # access:
+  # - Maintenance
+  # - Engineering
+  # - Command
+  # - External
+  # - ChiefEngineer
+  # - Atmospherics
+  # - Brig
+  # - Cryogenics
+  # special:
+  # - !type:AddImplantSpecial
+  #   implants: [ MindShieldImplant ]
+  # - !type:AddComponentSpecial
+  #   components:
+  #     - type: CommandStaff
+  ## End Frontier: commented everything above out
+  accessGroups: # Frontier
+  - GeneralAccess # Frontier
+
+- type: startingGear
+  id: ChiefOfMaintenanceGear
+  equipment:
+    id: CEPDA
+    eyes: ClothingEyesGlassesMeson
+    ears: ClothingHeadsetCE
+    belt: ClothingBeltUtilityEngineering
+  storage:
+    back:
+    - Flash

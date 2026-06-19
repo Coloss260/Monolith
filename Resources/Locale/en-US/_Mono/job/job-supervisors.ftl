@@ -1,1 +1,10 @@
-job-supervisors-doc = Director of Care
+job-supervisors-co = the Commanding Officer
+job-supervisors-xo = the Executive Officer
+job-supervisors-to = the Tactical Officer
+job-supervisors-oo = the Operations Officer
+job-supervisors-com = the Chief of Maintenance
+job-supervisors-sc = the Security Chief
+job-supervisors-sq = the Supplies Quartermaster
+job-supervisors-ss = the Science Supervisor
+job-supervisors-chom = the Chief of Medical
+job-supervisors-bs = the Bridge Staff

@@ -6,7 +6,7 @@
   setPreference: true # Frontier
   startingGear: CustodianGear
   icon: "JobIconCustodian"
-  supervisors: job-supervisors-hop
+  supervisors: job-supervisors-oo
   weight: 180
   displayWeight: 40
   canBeAntag: true

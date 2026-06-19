@@ -1,6 +1,5 @@
-chat-radio-ussp = USSP TACCOMM
-chat-radio-ussp-command = USSP STRATCOMM
-chat-radio-letoferol = Letoferol Chimera Hivemind
-chat-radio-cortical-borer = Cortical Borer Hivemind
-chat-radio-remnants = Remnants
-chat-radio-monolithic = Monolith Connection
+chat-radio-maintenance = Maintenance
+chat-radio-service = Service
+chat-radio-bridge-command = Bridge Command
+chat-radio-tactical = Tactical
+chat-radio-operations = Operations

@@ -6345,13 +6345,6 @@ entities:
     - type: Transform
       pos: -4.5,2.5
       parent: 2
-- proto: NFSpawnPointSeniorOfficer
-  entities:
-  - uid: 917
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
 - proto: NFTelecomServerFilled
   entities:
   - uid: 918
@@ -7720,37 +7713,30 @@ entities:
     - type: Transform
       pos: 3.5,7.5
       parent: 2
-- proto: SpawnPointBailiff
+- proto: SpawnPointChiefOfMaintenance
   entities:
   - uid: 1120
     components:
     - type: Transform
       pos: -4.5,2.5
       parent: 2
-- proto: SpawnPointBorg
+- proto: SpawnPointLifeSupportSpecialist
   entities:
   - uid: 1121
     components:
     - type: Transform
       pos: -5.5,2.5
       parent: 2
-- proto: SpawnPointBrigmedic
+- proto: SpawnPointMaintenanceTechnician
   entities:
   - uid: 1122
     components:
     - type: Transform
       pos: -4.5,2.5
       parent: 2
-- proto: SpawnPointCadet
+- proto: SpawnPointMaintenanceIntern
   entities:
   - uid: 1123
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointCCServiceWorker
-  entities:
-  - uid: 1158
     components:
     - type: Transform
       pos: -4.5,2.5
@@ -7762,89 +7748,12 @@ entities:
     - type: Transform
       pos: -4.5,2.5
       parent: 2
-- proto: SpawnPointDeputy
-  entities:
-  - uid: 1125
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointDirectorOfCare
-  entities:
-  - uid: 1126
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointERTChaplain
-  entities:
-  - uid: 1127
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointERTEngineer
-  entities:
-  - uid: 1128
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointERTJanitor
-  entities:
-  - uid: 1129
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointERTLeader
-  entities:
-  - uid: 1130
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointERTMailCarrier
-  entities:
-  - uid: 1131
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointERTMedical
-  entities:
-  - uid: 1132
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointERTSecurity
-  entities:
-  - uid: 1133
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
 - proto: SpawnPointLatejoin
   entities:
   - uid: 1134
     components:
     - type: Transform
       pos: -4.5,3.5
-      parent: 2
-- proto: SpawnPointMailCarrier
-  entities:
-  - uid: 1135
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointMdMedic
-  entities:
-  - uid: 1136
-    components:
-    - type: Transform
-      pos: -4.5,2.5
       parent: 2
 - proto: SpawnPointMessChef
   entities:
@@ -7867,152 +7776,12 @@ entities:
     - type: Transform
       pos: -4.5,2.5
       parent: 2
-- proto: SpawnPointPDVDenasvar
-  entities:
-  - uid: 1139
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointPDVInfiltrator
-  entities:
-  - uid: 1140
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
 - proto: SpawnPointHydroponicsBiologist
   entities:
   - uid: 1141
     components:
     - type: Transform
       pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointPirate
-  entities:
-  - uid: 1142
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointPirateCaptain
-  entities:
-  - uid: 1143
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointPirateFirstMate
-  entities:
-  - uid: 1144
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointPrisoner
-  entities:
-  - uid: 1145
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointPrisonGuard
-  entities:
-  - uid: 1146
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointPublicAffairsLiaison
-  entities:
-  - uid: 1147
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointSecurityGuard
-  entities:
-  - uid: 1148
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointSheriff
-  entities:
-  - uid: 1149
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointStationRepresentative
-  entities:
-  - uid: 1150
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointStc
-  entities:
-  - uid: 1151
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointTSFBorg
-  entities:
-  - uid: 1705
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointTsfEngi
-  entities:
-  - uid: 1152
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
-- proto: SpawnPointUSSPCommissar
-  entities:
-  - uid: 1153
-    components:
-    - type: Transform
-      pos: -3.5,2.5
-      parent: 2
-- proto: SpawnPointUSSPCorporal
-  entities:
-  - uid: 1154
-    components:
-    - type: Transform
-      pos: -3.5,2.5
-      parent: 2
-- proto: SpawnPointUSSPMedic
-  entities:
-  - uid: 1155
-    components:
-    - type: Transform
-      pos: -3.5,2.5
-      parent: 2
-- proto: SpawnPointUSSPRifleman
-  entities:
-  - uid: 1156
-    components:
-    - type: Transform
-      pos: -3.5,2.5
-      parent: 2
-- proto: SpawnPointUSSPSergeant
-  entities:
-  - uid: 1157
-    components:
-    - type: Transform
-      pos: -3.5,2.5
-      parent: 2
-- proto: SpawnVehicleATV
-  entities:
-  - uid: 1159
-    components:
-    - type: Transform
-      pos: -7.5,1.5
       parent: 2
 - proto: SpawnVehicleJanicart
   entities:

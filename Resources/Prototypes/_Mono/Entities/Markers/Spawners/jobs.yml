@@ -1,142 +1,40 @@
 
-#PDV
+#Maintenance
 - type: entity
-  id: SpawnPointPDVDenasvar
+  id: SpawnPointChiefOfMaintenance
   parent: SpawnPointJobBase
-  name: PDV Denasvar
+  name: Chief of Maintenance
   components:
   - type: SpawnPoint
-    job_id: PDVDenasvar
-  - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
-    state: banner-red
+    job_id: ChiefOfMaintenance
 
 - type: entity
-  id: SpawnPointPDVInfiltrator
+  id: SpawnPointLifeSupportSpecialist
   parent: SpawnPointJobBase
-  name: pdv infiltrator
+  name: Life Support Specialist
   components:
   - type: SpawnPoint
-    job_id: PDVInfiltrator
+    job_id: LifeSupportSpecialist
   - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
-    state: banner-red
 
 - type: entity
-  id: SpawnPointPDVBorg
+  id: SpawnPointMaintenanceTechnician
   parent: SpawnPointJobBase
-  name: pdv cyborg
+  name: Maintenance Technician
   components:
   - type: SpawnPoint
-    job_id: PdvBorg
-  - type: Sprite
-    layers:
-    - state: green
-    - sprite: Mobs/Silicon/chassis.rsi
-      state: robot
-    - sprite: Mobs/Silicon/chassis.rsi
-      state: robot_e
-
-#USSP
+    job_id: MaintenanceTechnician
 
 - type: entity
-  id: SpawnPointUSSPRifleman
+  id: SpawnPointMaintenanceIntern
   parent: SpawnPointJobBase
-  name: USSP Rifleman
+  name: Maintenance Intern
   components:
   - type: SpawnPoint
-    job_id: USSPRifleman
-  - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
-    state: banner-red
+    job_id: MaintenanceIntern
 
-- type: entity
-  id: SpawnPointUSSPMedic
-  parent: SpawnPointJobBase
-  name: USSP Combat Medic
-  components:
-  - type: SpawnPoint
-    job_id: USSPMedic
-  - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
-    state: banner-red
+# Service
 
-- type: entity
-  id: SpawnPointUSSPCorporal
-  parent: SpawnPointJobBase
-  name: USSP Efreitor
-  components:
-  - type: SpawnPoint
-    job_id: USSPCorporal
-  - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
-    state: banner-red
-
-- type: entity
-  id: SpawnPointUSSPSergeant
-  parent: SpawnPointJobBase
-  name: USSP Serzhant
-  components:
-  - type: SpawnPoint
-    job_id: USSPSergeant
-  - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
-    state: banner-red
-
-- type: entity
-  id: SpawnPointUSSPCommissar
-  parent: SpawnPointJobBase
-  name: USSP Commissar
-  components:
-  - type: SpawnPoint
-    job_id: USSPCommissar
-  - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
-    state: banner-red
-
-#MD
-
-- type: entity
-  id: SpawnPointMdMedic
-  parent: SpawnPointJobBase
-  name: Emergency Responder
-  components:
-  - type: SpawnPoint
-    job_id: MdMedic
-  - type: Sprite
-    sprite: _NF/Markers/jobs.rsi
-    layers:
-      - state: green
-      - state: medic
-
-#TSF
-
-- type: entity
-  id: SpawnPointTsfEngi
-  parent: SpawnPointJobBase
-  name: TSF Engineer
-  components:
-  - type: SpawnPoint
-    job_id: TsfEngineer
-  - type: Sprite
-    sprite: _NF/Markers/jobs.rsi
-    layers:
-    - state: green
-
-- type: entity
-  id: SpawnPointTSFBorg
-  parent: SpawnPointJobBase
-  name: tsf cyborg
-  components:
-  - type: SpawnPoint
-    job_id: TsfBorg
-  - type: Sprite
-    layers:
-    - state: green
-    - sprite: Mobs/Silicon/chassis.rsi
-      state: robot
-    - sprite: Mobs/Silicon/chassis.rsi
-      state: robot_e
 
 - type: entity
   id: SpawnPointCustodian
