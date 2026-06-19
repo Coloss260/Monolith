@@ -5,3 +5,35 @@
     sprite: /Textures/_Mono/Interface/Misc/job_icons.rsi
     state: TSFEngineer
   jobName: job-name-tsf-engineer
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconMessChef
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Chef
+  jobName: job-name-mess-chef
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCustodian
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Janitor
+  jobName: job-name-custodian
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconHydroponicsBiologist
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Botanist
+  jobName: job-name-hydroponics-biologist
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconOffDutyCrew
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Passenger
+  jobName: job-name-offduty-crew

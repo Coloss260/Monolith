@@ -2,15 +2,18 @@
   id: Custodian
   name: job-name-custodian
   description: job-description-custodian
-  playTimeTracker: JobJanitorOld
-  setPreference: false # Frontier
-  startingGear: JanitorGear
-  icon: "JobIconJanitor"
+  playTimeTracker: JobCustodian
+  setPreference: true # Frontier
+  startingGear: CustodianGear
+  icon: "JobIconCustodian"
   supervisors: job-supervisors-hop
+  weight: 180
+  displayWeight: 40
+  canBeAntag: true
   # access: # Frontier
-  # - Service # Frontier
-  # - Janitor # Frontier
-  # - Maintenance # Frontier
+   # - Service # Frontier
+   # - Janitor # Frontier
+   # - Maintenance # Frontier
   accessGroups: # Frontier
   - GeneralAccess # Frontier
   special:
@@ -19,7 +22,7 @@
     prototype: WeaponRevolverInspector
 
 - type: startingGear
-  id: JanitorGear
+  id: CustodianGear
   equipment:
     shoes: ClothingShoesGaloshes
     id: JanitorPDA
@@ -28,13 +31,3 @@
   #storage:
     #back:
     #- Stuff
-
-- type: startingGear
-  id: JanitorMaidGear
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtJanimaid
-    id: JanitorPDA
-    gloves: ClothingHandsGlovesJanitor
-    head: ClothingHeadHatCatEars
-    ears: ClothingHeadsetService
-    belt: ClothingBeltJanitorFilled

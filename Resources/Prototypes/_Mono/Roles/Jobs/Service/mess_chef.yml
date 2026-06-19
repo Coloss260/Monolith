@@ -1,15 +1,18 @@
 - type: job
-  id: Mess Chef
+  id: MessChef
   name: job-name-mess-chef
   description: job-description-mess-chef
-  playTimeTracker: JobChef
-  setPreference: false # Frontier
+  playTimeTracker: JobMessChef
+  setPreference: true # Frontier
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800
-  startingGear: ChefGear
-  icon: "JobIconChef"
+  startingGear: MessChefGear
+  icon: "JobIconMessChef"
   supervisors: job-supervisors-hire # Frontier
+  weight: 200
+  displayWeight: 60
+  canBeAntag: true
   accessGroups: # Frontier
   - GeneralAccess # Frontier
   special:
@@ -18,7 +21,7 @@
     - type: ProfessionalChef #Nyano - End Summary.
 
 - type: startingGear
-  id: ChefGear
+  id: MessChefGear
   equipment:
     shoes: ClothingShoesColorBlack
     id: ChefPDA

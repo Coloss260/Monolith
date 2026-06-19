@@ -1,15 +1,18 @@
 - type: job
-  id: Hydroponics Biologist
+  id: HydroponicsBiologist
   name: job-name-hydroponics-biologist
   description: job-description-hydroponics-biologist
-  playTimeTracker: JobBotanist
-  setPreference: false # Frontier
+  playTimeTracker: JobHydroponicsBiologist
+  setPreference: true # Frontier
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800
-  startingGear: BotanistGear
-  icon: "JobIconBotanist"
+  startingGear: HydroponicsBiologistGear
+  icon: "JobIconHydroponicsBiologist"
   supervisors: job-supervisors-hire # Frontier
+  weight: 190
+  displayWeight: 50
+  canBeAntag: true
   accessGroups: # Frontier
   - GeneralAccess # Frontier
   special:
@@ -18,7 +21,7 @@
     prototype: CannabisSeeds
 
 - type: startingGear
-  id: BotanistGear
+  id: HydroponicsBiologistGear
   equipment:
     shoes: ClothingShoesColorBrown
     id: BotanistPDA

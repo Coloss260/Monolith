@@ -24,3 +24,15 @@
 
 - type: playTimeTracker
   id: MdMedic
+
+- type: playTimeTracker
+  id: JobOffDutyCrew
+
+- type: playTimeTracker
+  id: JobMessChef
+
+- type: playTimeTracker
+  id: JobCustodian
+
+- type: playTimeTracker
+  id: JobHydroponicsBiologist

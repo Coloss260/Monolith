@@ -1,57 +1,38 @@
-- type: loadoutEffectGroup
-  id: SeniorJanitorial
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobJanitor
-      time: 187200 #52 hrs (1 hour per week for 1 year)
-
 # Head
 - type: loadout
-  id: JanitorHead
+  id: CustodianHead
   equipment:
     head: ClothingHeadHatPurplesoft
 
 # Jumpsuit
 - type: loadout
-  id: JanitorJumpsuit
+  id: CustodianJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitJanitor
 
 - type: loadout
-  id: JanitorJumpskirt
+  id: CustodianJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtJanitor
 
 # Gloves
 - type: loadout
-  id: JanitorRubberGloves
+  id: CustodianRubberGloves
   equipment:
     gloves: ClothingHandsGlovesJanitor
 
 - type: loadout
-  id: OrangeGloves
+  id: CustodianOrangeGloves
   equipment:
     gloves: ClothingHandsGlovesColorOrange
 
 - type: loadout
-  id: PurpleGloves
+  id: CustodianPurpleGloves
   equipment:
     gloves: ClothingHandsGlovesColorPurple
 
 # Outer clothing
 - type: loadout
-  id: JanitorWintercoat
+  id: CustodianWintercoat
   equipment:
     outerClothing: ClothingOuterWinterJani
-
-# Misc
-- type: loadout
-  id: JanitorGoldenPlunger
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorJanitorial
-  storage:
-    back:
-    - GoldenPlunger

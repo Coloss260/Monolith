@@ -137,3 +137,31 @@
       state: robot
     - sprite: Mobs/Silicon/chassis.rsi
       state: robot_e
+
+- type: entity
+  id: SpawnPointCustodian
+  parent: SpawnPointJanitor
+  components:
+  - type: SpawnPoint
+    job_id: Custodian
+
+- type: entity
+  id: SpawnPointMessChef
+  parent: SpawnPointChef
+  components:
+  - type: SpawnPoint
+    job_id: MessChef
+
+- type: entity
+  id: SpawnPointHydroponicsBiologist
+  parent: SpawnPointBotanist
+  components:
+  - type: SpawnPoint
+    job_id: HydroponicsBiologist
+
+- type: entity
+  id: SpawnPointOffDutyCrew
+  parent: SpawnPointPassenger
+  components:
+  - type: SpawnPoint
+    job_id: OffDutyCrew

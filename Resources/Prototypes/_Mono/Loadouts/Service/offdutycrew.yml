@@ -1,26 +1,6 @@
-# Greytide Time
-- type: loadoutEffectGroup
-  id: GreyTider
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobPassenger
-      time: 36000 #10 hrs, silly reward for people who play passenger a lot
-
-# Head of Greytide (for grey mantle)
-- type: loadoutEffectGroup
-  id: MasterGrey
-  effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:RoleTimeRequirement
-      role: JobPassenger
-      time: 72000 #20 hrs, fun mantle for the most experienced greytiders
-
 # Face
 - type: loadout
-  id: PassengerFace
+  id: OffDutyCrewFace
   effects:
   - !type:GroupLoadoutEffect
     proto: GreyTider
@@ -30,18 +10,18 @@
 # Jumpsuits
 # Grey
 - type: loadout
-  id: GreyJumpsuit
+  id: OffDutyCrewGreyJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorGrey
 
 - type: loadout
-  id: GreyJumpskirt
+  id: OffDutyCrewGreyJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorGrey
 
 # Rainbow
 - type: loadout
-  id: RainbowJumpsuit
+  id: OffDutyCrewRainbowJumpsuit
   effects:
   - !type:GroupLoadoutEffect
     proto: GreyTider
@@ -50,7 +30,7 @@
 
 # Ancient
 - type: loadout
-  id: AncientJumpsuit
+  id: OffDutyCrewAncientJumpsuit
   effects:
   - !type:GroupLoadoutEffect
     proto: GreyTider
@@ -59,7 +39,7 @@
 
 # Neck
 - type: loadout
-  id: Mantle
+  id: OffDutyCrewMantle
   equipment:
     neck: ClothingNeckMantle
   effects:
@@ -67,29 +47,29 @@
     proto: MasterGrey
 
 - type: startingGear
-  id: Mantle
+  id: OffDutyCrewMantle
   equipment:
     neck: ClothingNeckMantle
 
 # Back
 - type: loadout
-  id: CommonBackpack
+  id: OffDutyCrewBackpack
   equipment:
     back: ClothingBackpack
 
 - type: loadout
-  id: CommonSatchel
+  id: OffDutyCrewSatchel
   equipment:
     back: ClothingBackpackSatchel
 
 - type: loadout
-  id: CommonDuffel
+  id: OffDutyCrewDuffel
   equipment:
     back: ClothingBackpackDuffel
 
 # Gloves
 - type: loadout
-  id: PassengerGloves
+  id: OffDutyCrewGloves
   effects:
   - !type:GroupLoadoutEffect
     proto: GreyTider
@@ -98,17 +78,17 @@
 
 # Outerclothing
 - type: loadout
-  id: PassengerWintercoat
+  id: OffDutyCrewWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCoat
 
 # Shoes
 - type: loadout
-  id: BlackShoes
+  id: OffDutyCrewBlackShoes
   equipment:
     shoes: ClothingShoesColorBlack
 
 - type: loadout
-  id: WinterBoots
+  id: OffDutyCrewWinterBoots
   equipment:
     shoes: ClothingShoesBootsWinter
