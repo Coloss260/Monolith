@@ -48,7 +48,15 @@
 - type: radioChannel
   id: Security
   name: chat-radio-security
-  keycode: 'o'
+  keycode: 's'
   frequency: 1412
   color: "#ff0000"
+  longRange: true
+
+- type: radioChannel
+  id: Science
+  name: chat-radio-science
+  keycode: 'n'
+  frequency: 1685
+  color: "#9900ff"
   longRange: true

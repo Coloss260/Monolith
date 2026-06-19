@@ -211,3 +211,24 @@
     - state: sec_label
   - type: PirateBountyItem
     id: EncryptionKeyFaction
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyScience
+  name: Science encryption key
+  description: An encryption key for the science communications channel.
+  components:
+  - type: EncryptionKey
+    channels:
+    - Science
+    - Ship
+    defaultChannel: Science
+  - type: Item
+    sprite: Objects/Devices/encryption_keys.rsi
+  - type: Sprite
+    sprite: Objects/Devices/encryption_keys.rsi
+    layers:
+    - state: crypt_gray
+    - state: sci_label
+  - type: PirateBountyItem
+    id: EncryptionKeyFaction
