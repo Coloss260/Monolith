@@ -37,7 +37,7 @@ namespace Content.Shared.Roles
         public string LocalizedName => Loc.GetString(Name);
 
         /// <summary>
-        ///     The name of this job as displayed to players.
+        ///     The description of this job as displayed to players.
         /// </summary>
         [DataField("description")]
         public string? Description { get; private set; }

@@ -1,26 +1,25 @@
 - type: department
-  id: Service
-  name: department-Service
-  description: department-Service-description # Frontier
-  color: "#c1ff72"
-  weight: 0 # Mono
-  primary: true
+  id: PMC
+  name: department-PMC
+  description: department-PMC-description
+  color: "#7D8A3F"
+  weight: 0 # accounted for in jobs
   roles:
-  - Bartender
-  - HydroponicsBiologist
-  - MessChef
-  - Custodian
-  - OffDutyCrew
+  - Mercenary
+  primary: false
+  editorHidden: true
 
 - type: department
-  id: Maintenance
-  name: department-Maintenance
-  description: department-Maintenance-description
-  color: "#EFB341"
-  weight: 30
-  primary: false
+  id: UnionOfSovietSocialistPlanets
+  name: department-UnionOfSovietSocialistPlanets
+  description: department-UnionOfSovietSocialistPlanets-description
+  color: "#b2224b"
+  weight: 117 # Master Chief!
   roles:
-  - ChiefOfMaintenance
-  - MaintenanceTechnician
-  - LifeSupportSpecialist
-  - MaintenanceIntern
+  - USSPCommissar
+  - USSPSergeant
+  - USSPCorporal
+  - USSPMedic
+  - USSPRifleman
+  primary: false
+  editorHidden: true

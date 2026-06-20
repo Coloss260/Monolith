@@ -496,19 +496,6 @@
       - state: warden
 
 - type: entity
-  id: SpawnPointSecurityOfficer
-  parent: SpawnPointJobBase
-  name: securityofficer
-  categories: [ HideSpawnMenu ] # Frontier
-  components:
-  - type: SpawnPoint
-    job_id: SecurityOfficer
-  - type: Sprite
-    layers:
-      - state: green
-      - state: security_officer
-
-- type: entity
   id: SpawnPointDetective
   parent: SpawnPointJobBase
   name: detective

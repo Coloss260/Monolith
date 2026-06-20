@@ -350,7 +350,6 @@
       - IntercomElectronics
       key_slots:
       - EncryptionKeyCommon
-      - EncryptionKeyStationMaster
 
 - type: entity
   id: IntercomFreelance

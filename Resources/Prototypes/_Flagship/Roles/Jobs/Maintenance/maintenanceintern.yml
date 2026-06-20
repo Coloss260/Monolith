@@ -1,0 +1,32 @@
+- type: job
+  id: MaintenanceIntern
+  name: job-name-maintintern
+  description: job-description-maintintern
+  playTimeTracker: JobMaintenanceIntern
+  requirements:
+#    - !type:DepartmentTimeRequirement
+#      department: Engineering
+#      time: 54000 #15 hrs
+#      inverted: true # stop playing intern if you're good at engineering!
+    - !type:OverallPlaytimeRequirement # Frontier
+      time: 10800 # Frontier
+  displayWeight: 70
+  startingGear: MaintenanceInternGear
+  icon: "JobIconTechnicalAssistant"
+  supervisors: job-supervisors-com # Frontier
+  canBeAntag: false
+  accessGroups: # Frontier
+  - GeneralAccess # Frontier
+  setPreference: true # Frontier
+
+- type: startingGear
+  id: MaintenanceInternGear
+  equipment:
+    shoes: ClothingShoesBootsWork
+    id: TechnicalAssistantPDA
+#    belt: ClothingBeltUtilityEngineering # Frontier - Moved to locker
+    ears: ClothingHeadsetEngineering
+    pocket2: BookEngineersHandbook
+  #storage:
+    #back:
+    #- Stuff

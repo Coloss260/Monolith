@@ -3,7 +3,7 @@
   name: chat-radio-common
   keycode: ";"
   frequency: 1459
-  color: "#2cdb2c"
+  color: "#b3b3b3"
 
 - type: radioChannel
   id: CentCom
@@ -39,36 +39,36 @@
   name: chat-radio-science
   keycode: 'n'
   frequency: 1351
-  color: "#cd7ccd"
+  color: "#af36ff"
 
 - type: radioChannel
   id: Security
   name: chat-radio-security
-  keycode: 'g'
+  keycode: 's'
   frequency: 1359
-  color: "#ff4242"
+  color: "#ff2d2d"
 
-#- type: radioChannel
-#  id: Service
-#  name: chat-radio-service
-#  keycode: 'v'
-#  frequency: 1349
-#  color: "#09b96d"
+- type: radioChannel
+  id: Service
+  name: chat-radio-service
+  keycode: 'v'
+  frequency: 1349
+  color: "#09b96d"
 
 - type: radioChannel
   id: Supply
   name: chat-radio-supply
   keycode: 'u'
   frequency: 1347
-  color: "#b48b57"
+  color: "#50793f"
 
-#- type: radioChannel
-#  id: Syndicate
-#  name: chat-radio-syndicate
-#  keycode: 't'
-#  frequency: 1213
-#  color: "#8f4a4b"
-#  longRange: true # Frontier - Move to Syndicate Base
+- type: radioChannel
+  id: Syndicate
+  name: chat-radio-syndicate
+  keycode: 'p'
+  frequency: 1213
+  color: "#8f4a4b"
+  longRange: true # Frontier - Move to Syndicate Base
 
 - type: radioChannel
   id: Handheld
@@ -82,14 +82,14 @@
 # Goobstation - replaced with collective mind
 # commented out so anyone trying to use it gets errors and sees this
 # if you ARE one of said anyones, instead go copy yml of anything with collective mind
-#- type: radioChannel
-#  id: Binary
-#  name: chat-radio-binary
-#  keycode: 'b'
-#  frequency: 1001
-#  color: "#5ed7aa"
-#  # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
-#  longRange: true
+- type: radioChannel
+  id: Binary
+  name: chat-radio-binary
+  keycode: 'b'
+  frequency: 1001
+  color: "#5ed7aa"
+  # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
+  longRange: true
 
 - type: radioChannel
   id: Freelance

@@ -106,32 +106,6 @@
   - MdMedic # Mono
 
 - type: department
-  id: Security
-  name: department-Security
-  description: department-NFSecurity-description # Frontier
-  color: "#326DA8" # Mono
-  weight: 120 # Mono
-  editorHidden: true # Mono
-  roles:
-#  - Detective # Frontier
-#  - HeadOfSecurity # Frontier
-#  - SecurityCadet # Frontier
-#  - SecurityOfficer # Frontier
-#  - Warden # Frontier
-  - PrisonGuard ##nyano
-  - Brigmedic # Frontier
-#  - SecurityGuard # Frontier
-  - NFDetective # Frontier
-  - Cadet # Frontier
-  - Deputy # Frontier
-  - Bailiff # Frontier
-  - Sheriff # Frontier
-  - SeniorOfficer # Frontier
-  - PublicAffairsLiaison # Frontier
-  - TsfEngineer # Mono
-  - TsfBorg # Mono
-
-- type: department
   id: Science
   name: department-Science
   description: department-Science-description

@@ -35710,20 +35710,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -3.5,5.5
       parent: 1
-- proto: EncryptionKeyUssp
-  entities:
-  - uid: 5669
-    components:
-    - type: Transform
-      pos: -38.556686,21.518179
-      parent: 1
-- proto: EncryptionKeyUsspCommand
-  entities:
-  - uid: 5670
-    components:
-    - type: Transform
-      pos: -38.359024,21.641636
-      parent: 1
 - proto: FactionLatheImmmovable
   entities:
   - uid: 5671

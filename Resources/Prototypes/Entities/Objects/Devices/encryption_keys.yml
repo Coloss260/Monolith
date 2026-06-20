@@ -64,31 +64,6 @@
 
 - type: entity
   parent: EncryptionKey
-  id: EncryptionKeyStationMaster
-  name: station master encryption key
-  categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by station's bosses.
-  components:
-  - type: EncryptionKey
-    channels:
-    - Common
-    - Command
-    - Engineering
-    - Medical
-    - Science
-    - Security
-    - Nfsd # Frontier
-    - Service
-    - Supply
-    - Traffic # Frontier
-    defaultChannel: Command
-  - type: Sprite
-    layers:
-    - state: crypt_gold
-    - state: cap_label
-
-- type: entity
-  parent: EncryptionKey
   id: EncryptionKeyCommand
   name: TSF command encryption key # mono
   categories: [ DoNotMap ] # Frontier
@@ -153,21 +128,21 @@
     - state: crypt_gray
     - state: medsci_label
 
-- type: entity
-  parent: [EncryptionKey, RecyclableItemDeviceTiny]
-  id: EncryptionKeyScience
-  name: science encryption key
-  categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by scientists. Maybe it is plasmaproof?
-  components:
-  - type: EncryptionKey
-    channels:
-    - Science
-    defaultChannel: Science
-  - type: Sprite
-    layers:
-    - state: crypt_gray
-    - state: sci_label
+#- type: entity
+#  parent: [EncryptionKey, RecyclableItemDeviceTiny]
+#  id: EncryptionKeyScience
+#  name: science encryption key
+#  categories: [ DoNotMap ] # Frontier
+#  description: An encryption key used by scientists. Maybe it is plasmaproof?
+#  components:
+#  - type: EncryptionKey
+#    channels:
+#    - Science
+#    defaultChannel: Science
+#  - type: Sprite
+#    layers:
+#    - state: crypt_gray
+#    - state: sci_label
 
 - type: entity
   parent: [EncryptionKey, RecyclableItemDeviceTiny]
@@ -185,37 +160,37 @@
     - state: crypt_gray
     - state: robotics_label
 
-- type: entity
-  parent: EncryptionKey
-  id: EncryptionKeySecurity
-  name: colonial security encryption key # mono
-  categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by Colonial security. # Mono
-  components:
-  - type: EncryptionKey
-    channels:
-    - Security
-    defaultChannel: Security
-  - type: Sprite
-    layers:
-    - state: crypt_gray
-    - state: sec_label
+#- type: entity
+#  parent: EncryptionKey
+#  id: EncryptionKeySecurity
+#  name: colonial security encryption key # mono
+#  categories: [ DoNotMap ] # Frontier
+#  description: An encryption key used by Colonial security. # Mono
+#  components:
+#  - type: EncryptionKey
+#    channels:
+#    - Security
+#    defaultChannel: Security
+#  - type: Sprite
+#    layers:
+#    - state: crypt_gray
+#    - state: sec_label
 
-- type: entity
-  parent: [EncryptionKey, RecyclableItemDeviceTiny]
-  id: EncryptionKeyService
-  name: colonial staff encryption key # Mono
-  categories: [ DoNotMap ] # Frontier
-  description: An encryption key used by the service staff, tasked with keeping the station full, happy and clean.
-  components:
-  - type: EncryptionKey
-    channels:
-    - Service
-    defaultChannel: Service
-  - type: Sprite
-    layers:
-    - state: crypt_gray
-    - state: service_label
+#- type: entity
+#  parent: [EncryptionKey, RecyclableItemDeviceTiny]
+#  id: EncryptionKeyService
+#  name: colonial staff encryption key # Mono
+#  categories: [ DoNotMap ] # Frontier
+#  description: An encryption key used by the service staff, tasked with keeping the station full, happy and clean.
+#  components:
+#  - type: EncryptionKey
+#    channels:
+#    - Service
+#    defaultChannel: Service
+#  - type: Sprite
+#    layers:
+#    - state: crypt_gray
+#    - state: service_label
 
 - type: entity
   parent: EncryptionKey

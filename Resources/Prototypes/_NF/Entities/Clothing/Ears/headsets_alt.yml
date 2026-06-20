@@ -61,7 +61,7 @@
   - type: ContainerFill
     containers:
       key_slots:
-      - EncryptionKeyStationMaster
+      - EncryptionKeyCommon
   - type: Sprite
     sprite: _NF/Clothing/Ears/Headsets/nfsd_h_brown.rsi
   - type: Clothing
@@ -131,10 +131,4 @@
 - type: entity
   parent: [ClothingHeadsetCommon, ClothingHeadsetAltCentCom]
   id: ClothingHeadsetAltCentComCommon
-  categories: [ HideSpawnMenu ]
-
-# Mono
-- type: entity
-  parent: [ClothingHeadsetCommon, ClothingHeadsetAltCentComSR]
-  id: ClothingHeadsetAltCentComCommonSR
   categories: [ HideSpawnMenu ]

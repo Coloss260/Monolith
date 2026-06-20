@@ -52,8 +52,7 @@
     - Flash
     - RubberStampSr
     - DoorRemoteCommand
-    - EncryptionKeyCentCom
-    - EncryptionKeyStationMasterSR #Mono start
+    - EncryptionKeyCentCom #Mono start
     - EncryptionKeyDiplomacy
     - ShipVoucherFrontierGuard
     - PhoneInstrumentHigh

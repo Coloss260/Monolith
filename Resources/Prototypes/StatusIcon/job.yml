@@ -105,15 +105,6 @@
 
 - type: jobIcon
   parent: JobIcon
-  id: JobIconSecurityOfficer
-  icon:
-    sprite: /Textures/Interface/Misc/job_icons.rsi
-    state: SecurityOfficer
-  jobName: job-name-security
-  allowSelection: false # Frontier
-
-- type: jobIcon
-  parent: JobIcon
   id: JobIconNoId
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi

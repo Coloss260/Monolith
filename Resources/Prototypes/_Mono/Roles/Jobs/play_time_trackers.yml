@@ -1,23 +1,26 @@
 - type: playTimeTracker
-  id: JobOffDutyCrew
+  id: JobUSSPCommissar
 
 - type: playTimeTracker
-  id: JobMessChef
+  id: JobUSSPCorporal
 
 - type: playTimeTracker
-  id: JobCustodian
+  id: JobUSSPMedic
 
 - type: playTimeTracker
-  id: JobHydroponicsBiologist
+  id: JobUSSPRifleman
 
 - type: playTimeTracker
-  id: JobChiefOfMaintenance
+  id: JobUSSPSergeant
 
 - type: playTimeTracker
-  id: JobMaintenanceTechnician
+  id: JobTsfEngineer
 
 - type: playTimeTracker
-  id: JobLifeSupportSpecialist
+  id: JobTsfBorg
 
 - type: playTimeTracker
-  id: JobMaintenanceIntern
+  id: JobPdvBorg
+
+- type: playTimeTracker
+  id: MdMedic

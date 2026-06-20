@@ -89,7 +89,7 @@
     sprite: Objects/Tools/spy_device.rsi
     state: icon
   content:
-  - EncryptionKeyStationMaster
+  - EncryptionKeyCommon
   - CyberPen
   - BriefcaseThiefBribingBundleFilled
   - ClothingMaskGasVoiceChameleon

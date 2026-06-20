@@ -163,13 +163,13 @@
   - type: SpawnPoint
     job_id: SeniorOfficer
 
-- type: entity
-  id: SpawnPointDeputy
-  parent: SpawnPointSecurityOfficer
-  name: deputy
-  components:
-  - type: SpawnPoint
-    job_id: Deputy
+# - type: entity
+#   id: SpawnPointDeputy
+#   parent: SpawnPointSecurityOfficer
+#   name: deputy
+#   components:
+#  - type: SpawnPoint
+#     job_id: Deputy
 
 - type: entity
   id: SpawnPointCadet
