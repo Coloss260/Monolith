@@ -21,7 +21,7 @@
       time: 54000 # 15 hours
   displayWeight: 80
   startingGear: TacticalOfficerGear
-  icon: "JobIconCaptain"
+  icon: "JobIconTacticalOfficer"
 # Frontier: commented out below, separate access
 #  requireAdminNotify: true
 #  joinNotifyCrew: true

@@ -21,7 +21,7 @@
       time: 54000 # 15 hours
   displayWeight: 100
   startingGear: CommandingOfficerGear
-  icon: "JobIconCaptain"
+  icon: "JobIconCommandingOfficer"
   joinNotifyCrew: true
   canBeAntag: false
   access:

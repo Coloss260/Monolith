@@ -21,7 +21,7 @@
       time: 54000 # 15 hours
   displayWeight: 50
   startingGear: FlightControlOfficerGear
-  icon: "JobIconCaptain"
+  icon: "JobIconFlightControlOfficer"
 # Frontier: commented out below, separate access
 #  requireAdminNotify: true
 #  joinNotifyCrew: true

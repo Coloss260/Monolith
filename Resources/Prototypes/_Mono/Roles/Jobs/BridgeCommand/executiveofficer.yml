@@ -21,7 +21,7 @@
       time: 54000 # 15 hours
   displayWeight: 90
   startingGear: ExecutiveOfficerGear
-  icon: "JobIconCaptain"
+  icon: "JobIconExecutiveOfficer"
 # Frontier: commented out below, separate access
 #  requireAdminNotify: true
 #  joinNotifyCrew: true
