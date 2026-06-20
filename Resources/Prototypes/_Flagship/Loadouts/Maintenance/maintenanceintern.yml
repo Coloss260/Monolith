@@ -1,10 +1,10 @@
 # Jumpsuit
 - type: loadout
-  id: YellowJumpsuit
+  id: MaintenanceInternYellowJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorYellow
 
 - type: loadout
-  id: YellowJumpskirt
+  id: MaintenanceInternYellowJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorYellow
