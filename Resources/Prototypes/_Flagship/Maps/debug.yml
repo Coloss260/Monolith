@@ -46,6 +46,10 @@
             MaintenanceIntern: [ -1, -1 ]
 
             # Security
+            SecurityChief: [ -1, -1 ]
+            SecurityMedic: [ -1, -1 ]
+            SecurityOfficer: [ -1, -1 ]
+            SecurityTrainee: [ -1, -1 ]
 
             # Science
 

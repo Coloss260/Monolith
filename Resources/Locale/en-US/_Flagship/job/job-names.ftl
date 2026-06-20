@@ -14,6 +14,10 @@ job-name-lifesupportspec = Life Support Specialist
 job-name-maintintern = Maintenance Intern
 
 # Security
+job-name-security-chief = Security Chief
+job-name-security-medic = Security Medic
+job-name-security-officer = Security Officer
+job-name-security-trainee = Security Trainee
 
 # Science
 

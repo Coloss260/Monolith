@@ -34,7 +34,17 @@
   id: JobMaintenanceIntern
 
 # Security
+- type: playTimeTracker
+  id: JobSecurityChief
 
+- type: playTimeTracker
+  id: JobSecurityMedic
+
+- type: playTimeTracker
+  id: JobSecurityOfficer
+
+- type: playTimeTracker
+  id: JobSecurityTrainee
 
 # Science
 

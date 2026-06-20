@@ -6338,13 +6338,6 @@ entities:
     - type: Transform
       pos: -16.5,-6.5
       parent: 2
-- proto: SpawnPointCustodian
-  entities:
-  - uid: 916
-    components:
-    - type: Transform
-      pos: -4.5,2.5
-      parent: 2
 - proto: COLTelecomServerFilled
   entities:
   - uid: 918
@@ -7713,6 +7706,8 @@ entities:
     - type: Transform
       pos: 3.5,7.5
       parent: 2
+
+# Roles Spawn Points
 - proto: SpawnPointChiefOfMaintenance
   entities:
   - uid: 1120
@@ -7744,6 +7739,13 @@ entities:
 - proto: SpawnPointOffDutyCrew
   entities:
   - uid: 1124
+    components:
+    - type: Transform
+      pos: -4.5,2.5
+      parent: 2
+- proto: SpawnPointCustodian
+  entities:
+  - uid: 1125
     components:
     - type: Transform
       pos: -4.5,2.5
@@ -7832,6 +7834,35 @@ entities:
     - type: Transform
       pos: -4.5,2.5
       parent: 2
+- proto: SpawnPointSecurityChief
+  entities:
+  - uid: 1149
+    components:
+    - type: Transform
+      pos: -4.5,2.5
+      parent: 2
+- proto: SpawnPointSecurityMedic
+  entities:
+  - uid: 1150
+    components:
+    - type: Transform
+      pos: -4.5,2.5
+      parent: 2
+- proto: SpawnPointSecurityOfficer
+  entities:
+  - uid: 1151
+    components:
+    - type: Transform
+      pos: -4.5,2.5
+      parent: 2
+- proto: SpawnPointSecurityTrainee
+  entities:
+  - uid: 1152
+    components:
+    - type: Transform
+      pos: -4.5,2.5
+      parent: 2
+
 - proto: SpawnVehicleJanicart
   entities:
   - uid: 1160

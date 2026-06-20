@@ -113,7 +113,7 @@ JobScientist = Scientist
 # Frontier: Security Cadet<Cadet
 JobSecurityCadet = Cadet
 # Mono: Security Officer<TSFMC Corporal
-JobSecurityOfficer = TSFMC Corporal
+# JobSecurityOfficer = TSFMC Corporal
 JobServiceWorker = Service Worker
 JobStationAi = Station AI
 JobStationEngineer = Station Engineer

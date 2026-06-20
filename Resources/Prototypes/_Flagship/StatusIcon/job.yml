@@ -58,7 +58,37 @@
 # Maintenance
 
 # Security
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSecurityChief
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: HeadOfSecurity
+  jobName: job-name-security-chief
 
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSecurityMedic
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Brigmedic
+  jobName: job-name-security-medic
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSecurityOfficer
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: SecurityOfficer
+  jobName: job-name-security-officer
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSecurityTrainee
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: SecurityCadet
+  jobName: job-name-security-trainee
 # Science
 
 # Supply

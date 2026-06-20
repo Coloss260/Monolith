@@ -3,7 +3,7 @@
   name: department-BridgeCommand
   description: department-BridgeCommand-description
   color: "#2b72ee"
-  weight: 50
+  weight: 200
   primary: false
   roles:
   - CommandingOfficer
@@ -19,13 +19,26 @@
   name: department-Maintenance
   description: department-Maintenance-description
   color: "#EFB341"
-  weight: 30
+  weight: 120
   primary: false
   roles:
   - ChiefOfMaintenance
   - MaintenanceTechnician
   - LifeSupportSpecialist
   - MaintenanceIntern
+
+- type: department
+  id: Security
+  name: department-Security
+  description: department-Security-description
+  color: "#2b72ee"
+  weight: 180
+  primary: false
+  roles:
+  - SecurityChief
+  - SecurityMedic
+  - SecurityOfficer
+  - SecurityTrainee
 
 - type: department
   id: Service

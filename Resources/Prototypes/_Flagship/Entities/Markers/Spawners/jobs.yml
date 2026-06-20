@@ -90,6 +90,37 @@
     job_id: MaintenanceIntern
 
 # Security
+- type: entity
+  id: SpawnPointSecurityChief
+  parent: SpawnPointJobBase
+  name: Security Chief
+  components:
+  - type: SpawnPoint
+    job_id: SecurityChief
+
+- type: entity
+  id: SpawnPointSecurityMedic
+  parent: SpawnPointJobBase
+  name: Security Medic
+  components:
+  - type: SpawnPoint
+    job_id: SecurityMedic
+
+- type: entity
+  id: SpawnPointSecurityOfficer
+  parent: SpawnPointJobBase
+  name: Security Officer
+  components:
+  - type: SpawnPoint
+    job_id: SecurityOfficer
+
+- type: entity
+  id: SpawnPointSecurityTrainee
+  parent: SpawnPointJobBase
+  name: Security Trainee
+  components:
+  - type: SpawnPoint
+    job_id: SecurityTrainee
 
 # Science
 

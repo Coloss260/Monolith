@@ -14,6 +14,10 @@ job-description-lifesupportspec = Distribute breathable air and seal up breaches
 job-description-maintintern = Learn the ropes of what it means to maintain a battle ship during a full on war.
 
 # Security
+job-description-security-chief = Keep your boot-wearing troops on patrol for any illegal activities and make sure the Armoury is safe from intruders.
+job-description-security-medic = Keep your bloodthirsty colleagues healthy and take serve as a field medic when a gunfight is happening.
+job-description-security-officer = Patrol the tight corridors of the ship and prevent any wrongdoers from disrupting the war effort. Occasionally stop a team of boarders from sabotaging critical systems.
+job-description-security-trainee = Learn the ropes and tactics of the Security Team while accompanying an Officer on patrol.
 
 # Science
 
