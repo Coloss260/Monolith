@@ -14,12 +14,12 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: gameMap
-  id: NFDev
-  mapName: NFDev
-  mapPath: /Maps/_Mono/Test/dev_map.yml # Mono
+  id: FSDev
+  mapName: FSDev
+  mapPath: /Maps/_Flagship/Test/dev_map.yml # Flagship
   minPlayers: 0
   stations:
-    NFDev:
+    FSDev:
       stationProto: StandardFrontierStation
       components:
         - type: StationNameSetup

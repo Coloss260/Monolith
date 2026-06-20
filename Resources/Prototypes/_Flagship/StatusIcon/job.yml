@@ -66,17 +66,6 @@
 # Medical
 
 # Service
-
-
-# Mono
-- type: jobIcon
-  parent: JobIcon
-  id: JobIconTSFEngi
-  icon:
-    sprite: /Textures/_Flagship/Interface/Misc/job_icons.rsi
-    state: TSFEngineer
-  jobName: job-name-tsf-engineer
-
 - type: jobIcon
   parent: JobIcon
   id: JobIconMessChef
